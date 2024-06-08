@@ -1,27 +1,18 @@
-# GoalList Project
+# Guess The Number - Project
 
 ## Description
 
-This is a React Native application that allows users to manage a list of goals. The goals can be fetched from a server or local storage, and the user can add, delete, and view goals.
+This is a game built in react native. in this simple game the user shall provide a number between 1-99 and then the computer will try to 'guess' his/her number. 
+with each guess the user will tell if the 'guessed' number is bigger or smaller than the one he picked.
 
 ## Important Notes
 
-This application shares the same server-side data among all users. This means that each user will be exposed to the same list of goals stored on the server. 
-There is currently no separation of data between different devices or users, and the application does not support any kind of authentication or security.
-Also, there's no use of a database, so if the server restarts the list of goals restarts with it.
-
-The reason for that is that I never meant to publish this app, only using it as a prototype or proof of concept and sharing it with close group of friends.
-Please be aware of this when using the application.
-
-The app has been tested only on android devices, I have no Idea how it behaves or looks on an ios!
+The app has been tested only on android devices.
 
 ## Features
 
-- Fetch goals from a server or local storage
-- Add new goals
-- Delete existing goals
-- View a list of current goals
-- Hebrew support on devices with hebrew as default system language
+- Prompt a number between 1-99
+- minimum guess counter
 
 ## Installation
 
