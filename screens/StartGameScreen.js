@@ -35,7 +35,15 @@ function StartGameScreen({ onPickNumber }) {
 
   return (
     <View style={styles.rootContainer}>
-      <InstructionText>Guess My Number</InstructionText>
+      <InstructionText
+        style={{
+          backgroundColor: "#d1c700ff",
+          borderColor: Colors.accent500,
+          color: "black",
+          borderWidth: 1,
+        }}>
+        Guess My Number
+      </InstructionText>
       <Card>
         <InstructionText>Enter a Number</InstructionText>
         <TextInput

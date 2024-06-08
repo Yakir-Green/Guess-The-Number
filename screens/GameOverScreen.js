@@ -9,6 +9,7 @@ function GameOverScreen({ roundsNumber, userNumber, onStartNewGame }) {
     <View style={styles.rootContainer}>
       <Title>GAME OVER!</Title>
       <View style={styles.imageContainer}>
+        <Title>{userNumber}</Title>
         <Image
           style={styles.image}
           source={require("../assets/images/success.png")}
@@ -54,6 +55,7 @@ const styles = StyleSheet.create({
   },
   highlight: {
     fontFamily: "open-sans-bold",
-    color: Colors.primary500,
+    color: "#a00000ff",
+    backgroundColor: "#fffb00",
   },
 });

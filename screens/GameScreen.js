@@ -70,7 +70,11 @@ function GameScreen({ userNumber, onGameOver }) {
   return (
     <View style={styles.screen}>
       <Title>Opponent's Guess</Title>
-      <NumberContainer>{currentGuess}</NumberContainer>
+      <Card style={{ backgroundColor: "#690000e5" }}>
+        <InstructionText style={{ color: "yellow" }}>
+          {currentGuess}
+        </InstructionText>
+      </Card>
       <Card>
         <InstructionText style={styles.instructionText}>
           Higher or lower?
@@ -111,6 +115,7 @@ const styles = StyleSheet.create({
   screen: {
     flex: 1,
     padding: 24,
+    marginTop: 36,
   },
   instructionText: {
     marginBottom: 12,

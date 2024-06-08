@@ -14,8 +14,10 @@ const styles = StyleSheet.create({
     // fontWeight: 'bold',
     color: "black",
     textAlign: "center",
-    borderWidth: 2,
-    borderColor: Colors.primary500,
+    // borderWidth: 2,
+    // borderColor: Colors.primary500,
+    backgroundColor: "#ffea00dc",
+    borderRadius: 8,
     padding: 12,
   },
 });
