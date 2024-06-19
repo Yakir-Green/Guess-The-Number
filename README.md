@@ -18,7 +18,7 @@ The app has been tested only on android devices.
 
 To install the project, follow these steps:
 
-1. Clone the repository: `git clone https://github.com/Ygrno/GoaListApp.git`
+1. Clone the repository: `git clone https://github.com/Ygrno/Guess-The-Number.git'
 2. Install the dependencies: `npm install`
 
 ## Usage
