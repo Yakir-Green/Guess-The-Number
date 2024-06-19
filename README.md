@@ -39,6 +39,6 @@ Here are some screenshots of the GoalList app:
 
 <p float="left" align="center">
   <img src="https://github.com/Ygrno/Guess-The-Number/blob/master/assets/Screenshot_1718822436.png" width="200" /> 
-  <img src="https://github.com/Ygrno/GoaListApp/assets/26521541/a7e6014e-6a1e-44db-a467-74c9c9a1871c" width="200" /> 
-  <img src="https://github.com/Ygrno/GoaListApp/assets/26521541/c94b28ff-c8b4-423a-aae4-53ff49310e7c" width="200" />
+  <img src="https://github.com/Ygrno/Guess-The-Number/blob/master/assets/Screenshot_1718822447.png" width="200" /> 
+  <img src="https://github.com/Ygrno/Guess-The-Number/blob/master/assets/Screenshot_1718822455.png" width="200" />
 </p>
