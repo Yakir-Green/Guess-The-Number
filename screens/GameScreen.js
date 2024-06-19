@@ -1,5 +1,12 @@
 import { useState, useEffect } from "react";
-import { View, StyleSheet, Alert, Text, FlatList } from "react-native";
+import {
+  View,
+  StyleSheet,
+  Alert,
+  Text,
+  FlatList,
+  Dimensions,
+} from "react-native";
 // import { Ionicons } from "@expo/vector-icons";
 import { AntDesign } from "@expo/vector-icons";
 import NumberContainer from "../components/game/NumberContainer";
@@ -111,11 +118,13 @@ function GameScreen({ userNumber, onGameOver }) {
 
 export default GameScreen;
 
+const deviceHeight = Dimensions.get("window").height;
+
 const styles = StyleSheet.create({
   screen: {
     flex: 1,
     padding: 24,
-    marginTop: 36,
+    marginTop: deviceHeight < 400 ? 1 : 30,
   },
   instructionText: {
     marginBottom: 12,

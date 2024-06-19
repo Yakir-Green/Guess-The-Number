@@ -1,4 +1,4 @@
-import { View, Image, Text, StyleSheet } from "react-native";
+import { View, Image, Text, StyleSheet, Dimensions } from "react-native";
 
 import Title from "../components/ui/Title";
 import PrimaryButton from "../components/ui/PrimaryButton";
@@ -26,6 +26,8 @@ function GameOverScreen({ roundsNumber, userNumber, onStartNewGame }) {
 }
 
 export default GameOverScreen;
+
+const deviceHeight = Dimensions.get("window").height;
 
 const styles = StyleSheet.create({
   rootContainer: {
