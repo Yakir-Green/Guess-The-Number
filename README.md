@@ -2,8 +2,8 @@
 
 ## Description
 
-This is a game built in react native. in this simple game the user shall provide a number between 1-99 and then the computer will try to 'guess' his/her number. 
-with each guess the user will tell if the 'guessed' number is bigger or smaller than the one he picked.
+This is a game built in react native. In this simple game the user shall provide a number between 1-99 and the computer will try to 'guess' it.
+With each guess the user shall tell if the 'guessed' number is bigger or smaller than the one he picked.
 
 ## Important Notes
 
