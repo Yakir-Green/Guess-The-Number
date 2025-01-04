@@ -26,6 +26,7 @@
       "favicon": "./assets/favicon.png"
     },
     "plugins": ["expo-font"],
+    "newArchEnabled": true,
     "extra": {
       "eas": {
         "projectId": "46c0a775-936c-4596-91c2-448dc1396422"

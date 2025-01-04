@@ -2,7 +2,6 @@ import { useState } from "react";
 import { TextInput, View, StyleSheet, Alert, Dimensions } from "react-native";
 
 import PrimaryButton from "../components/ui/PrimaryButton";
-import Title from "../components/ui/Title";
 import Colors from "../constants/colors";
 import Card from "../components/ui/Card";
 import InstructionText from "../components/ui/InstructionText";
@@ -79,7 +78,6 @@ const styles = StyleSheet.create({
     alignItems: "center",
   },
   numberInput: {
-    height: 50,
     width: 50,
     fontSize: 32,
     borderBottomColor: Colors.accent500,
